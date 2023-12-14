@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS ANIMATIONS PROPERTY</title>
+    <style>
+    .container{
+	 background-color:red;
+	height: 100vh;
+    border: 5px solid black; 
+       }
+
+
+      .box{
+        text-align: center;
+        font-size: 55px;
+       text-decoration: underline solid black;
+       border: 5px solid black;
+       height: 300px;
+       width: 300px;
+       background-color: purple;
+        color: white;
+        font-weight:bold;
+        animation-name:width;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 0.5s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-direction: reverse;
+        animation-direction: alternate-reverse;
+      }
+
+      @keyframes width{
+        from{
+            width: 345px;
+        }
+        to{
+            width:1250px;
+        }
+      }
+      
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">DATANET</div>
+        </div>
+</body>
+</html>

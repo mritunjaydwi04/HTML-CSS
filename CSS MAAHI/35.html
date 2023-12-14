@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS TABLE</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            border: 5px solid red;
+            color: #111333;
+        }
+
+        h1 {
+            font-size: 35px;
+            font-weight: bold;
+        }
+
+        table {
+            border: 2px solid black;
+            text-align: center;
+            width: 650px;
+
+        }
+
+        th {
+            color: red;
+            border-bottom: 2px solid #111111;
+            border-top: 2px solid #999;
+            text-align: left;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        tr {
+            background: yellow;
+        }
+
+        
+        
+        tr:hover{
+            background-color: purple;
+            color: white;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>TOP FIVE STUDENT RECORD</h1>
+
+    <table>
+        <tr>
+            <th>NAME</th>
+            <th>SUBJECT</th>
+            <th>MARKS</th>
+            <th>POSITION</th>
+        </tr>
+        <tr class="even">
+            <td>Ravi Singh</td>
+            <td>MATH</td>
+            <td>95</td>
+            <td>FIRST</td>
+        </tr>
+        <tr class="even">
+            <td>V.K. Mishra</td>
+            <td>SCIENCE</td>
+            <td>85</td>
+            <td>FIRST</td>
+        </tr>
+        <tr class="even">
+            <td>Monica Roy</td>
+            <td>HISTORY</td>
+            <td>85</td>
+            <td>FIRST</td>
+        </tr>
+        <tr class="even">
+            <td>Pawan Keshri</td>
+            <td>HINDI</td>
+            <td>95</td>
+            <td>FIRST</td>
+        </tr>
+    </table>
+</body>
+
+</html>

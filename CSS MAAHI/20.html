@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS ANIMATIONS SHORTHAND IMAGE PROPERTY</title>
+    <style>
+        .container{
+            background-color: red;
+            height: 100vh;
+            border: 5px solid black;
+        }
+
+        .box{
+            text-align: center;
+            font-size: 55px;
+            border: 5px solid black;
+            height: 300px;
+            width: 300px;
+            background-color: purple;
+            font-weight: bold;
+            color: white;
+            text-decoration: underline solid black;
+            animation:infinite widthanimation alternate-reverse ease-in-out 1s;
+
+        }
+            img{
+            border: 5px solid black;
+            animation: photoanimation infinite alternate-reverse ease-in-out 1s;
+            }
+
+        
+        @keyframes widthanimation{
+            from{
+                width: 345px;
+            }
+            to{
+                width: 1250px;
+            }
+        }
+        @keyframes photoanimation{
+            from{
+                width: 345px;
+            }
+            to{
+                width: 1250px;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">DATANET</div>
+   
+    <img src="PICTURE/PIC2.jpg" alt="" width="345px" height="345px">
+</div>
+<audio src="AUD 1.mp3" controls autoplay loop ></audio>
+</body>
+</html>

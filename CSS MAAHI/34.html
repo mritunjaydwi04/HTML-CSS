@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREDIT CARD DESIGN</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Edu+TAS+Beginner:wght@400;600&family=Kenia&family=Poppins:wght@300;400;500;600&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "poppins", sans-serif;
+    }
+    body{
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #e3f2fd;
+    }
+    .container{
+        position: relative;
+        background-image: url("PICTURE/LOGO 4.png");
+        background-size:cover ;
+        padding: 25px;
+        border-radius: 28px;
+        max-width: 380px;
+        width: 100%;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+    header, s.logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo img{
+        width: 48px;
+        margin-right: 10px;
+    }
+    h5{
+        font-size: 16px;
+        font-weight: 400;
+        color:#fff;
+    }
+    header .chip{
+        width: 60px;
+    }
+    h6{
+        color: #fff;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    h5 .number{
+       margin-top: 4px;
+       font-size: 18px;
+       letter-spacing: 1px; 
+    }
+    h5 .name{
+        margin-top: 20px;
+    }
+    .container .card-detail{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    
+    
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <span class="logo">
+                <img src="PICTURE/LOGO 3.png" alt="">
+                <h5>Master Card</h5>
+            </span>
+            <img src="PICTURE/LOGO 5.png" alt="" class="chip">
+        </header>
+        <div class="card-detail">
+            <div class="name-number">
+                <h6>Card Number</h6>
+                <h5 class="number">8050 5040 2030 3020</h5>
+                <h6 class="name">MRITUNJAY SHRESTH DWIVEDI</h6>
+            </div>
+            <div class="valid-date">
+                <h6>VALID FOR</h6>
+                <h5>05/28</h5>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS HEART BEAT</title>
+    <style>
+        body {
+            background-color: hotpink;
+        }
+        body:hover{
+            background-color: gold;
+        }
+        P:hover {
+            background-color: blueviolet;
+            font-weight: BOLD;
+
+        }
+
+        .heart {
+            background-color: red;
+            height: 100px;
+            width: 100px;
+            margin: 100px;
+            top: 0;
+            transform: rotate(-45deg);
+            animation: beat 1s infinite alternate;
+        }
+
+        .heart:before,
+        .heart:after {
+            content: '';
+            background-color: red;
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+        }
+
+        .heart:after {
+            left: -10px;
+            top: -50px;
+        }
+
+        .heart:before {
+            top: 10px;
+            left: 50%;
+        }
+
+
+
+        @keyframes beat {
+            0% {
+                transform: scale(1) rotate(-45deg);
+            }
+
+
+            100% {
+                transform: scale(2) rotate(-45deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="heart">
+        <p>&#128933</p>
+    </div>
+    <P>THIS IS WINNIES FACE</P>
+
+</body>
+
+</html>

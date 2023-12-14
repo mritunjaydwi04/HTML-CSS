@@ -1,0 +1,59 @@
+body{
+    background-color: purple;
+}
+#first{
+    background-color: hotpink;
+    text-decoration:  underline double   red;
+    font-style: italic;
+    font-size: 90px;
+    text-align: center;
+    color: yellow;
+}
+#second{
+    background-color: yellow;
+   
+    font-style: bold;
+    font-size: 90px;
+    text-align: center;
+    color: black;
+}
+.red{
+    background-color: black;
+    font-style: bold;
+    font-size: 90px;
+    text-align: center;
+    color: red;
+}
+.pink{
+    background-color: aqua;
+    font-size: 90px;
+    text-align: center;
+    color: red;
+}
+.green{
+    background-color: yellow;
+    font-size: 90px;
+    text-align: center;
+    color: red;
+}
+.blue{
+    background-color: brown;
+    font-size: 90px;
+    text-align: center;
+    color: red;
+}
+p:hover{
+    background-color: red;
+    color: black;
+    font-weight: bold;
+}
+#first:hover{
+    background-color: red;
+    color: black;
+    font-weight: italic;
+}
+#second:hover{
+    background-color: red;
+    color: black;
+    font-weight: italic;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS ANIMATIONS SHORTHAND ANOTHER IMAGE PROPERTY</title>
+    <style>
+        .container{
+            background-color: red;
+            height: 100vh;
+            border: 5px solid black;
+        }
+
+        
+            img{
+            border: 5px solid black;
+            animation: photoanimation infinite alternate-reverse ease-in-out 1s;
+            }
+
+        
+       
+        
+        @keyframes photoanimation{
+            from{
+                height: 30px;
+                width: 30px;
+            }
+            to{
+                height: 100vh;
+                width: 100vw;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+   
+    <img src="PICTURE/PIC4.PNG" alt="" width="345px" height="345px">
+</div>
+<audio src="AUD 1.mp3" controls autoplay loop ></audio>
+</body>
+</html>

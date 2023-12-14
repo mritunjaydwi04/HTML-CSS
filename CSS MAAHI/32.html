@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS HEART BEAT</title>
+    <style>
+        body {
+            background-color: purple;
+        }
+
+        .heart {
+            background-color: red;
+            height: 100px;
+            width: 100px;
+            margin: 100px;
+            top: 0;
+            transform: rotate(-45deg);
+            animation: beat 1s infinite alternate;
+        }
+
+        .heart:before,
+        .heart:after {
+            content: '';
+            background-color: red;
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+        }
+        .heart:after{
+            left: 50px;
+            top: 0;
+        }
+        .heart:before{
+            top: -50px;
+            left: 0;
+        }
+
+
+
+
+        @keyframes beat {
+            0% {
+                transform: scale(1) rotate(-45deg);
+            }
+
+            100% {
+                transform: scale(1.5) rotate(-45deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="heart"></div>
+
+</body>
+
+</html>
